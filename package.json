@@ -1,0 +1,45 @@
+{
+    "name": "node-isign",
+    "version": "0.0.1",
+    "description": "A Javascript Implementation for isign (https://github.com/saucelabs/isign)",
+    "keywords": [
+        "codesign",
+        "ios",
+        "iSign"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/strawhatboy/node-isign"
+    },
+    "author": {
+        "email": "strawhat2010@live.cn",
+        "name": "strawhat",
+        "url": "https://github.com/strawhatboy/"
+    },
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/_mocha"
+    },
+    "dependencies": {
+        "argparse": "^1.0.9",
+        "lodash": "^4.17.4",
+        "log4js": "^1.1.1",
+        "pem": "^1.9.7",
+        "plist": "^2.1.0",
+        "ref-struct": "^1.1.0",
+        "yazl": "^2.4.2",
+        "yauzl": "^2.8.0"
+    },
+    "devDependencies": {
+        "babel-preset-latest": "^6.24.1",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^6.1.2",
+        "gulp-clean": "^0.3.2",
+        "gulp-sourcemaps": "^2.6.0"
+    },
+    "bin":{
+        "isign": "./bin/isign",
+        "_isign": "./bin/_isign"
+    },
+    "license": "MIT"
+}

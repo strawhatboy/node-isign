@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+import { isign } from '../'
+import argparse from 'argparse'
+
